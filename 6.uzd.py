@@ -1,8 +1,9 @@
 sekundes = int(input("Ievadi sekundes: "))
 
 stundas = sekundes // 3600
-minutes = (sekundes % 3600) // 60
-sek = sekundes % 60
+sekundes = sekundes % 3600
 
-print(f"{stundas:02d}:{minutes:02d}:{sek:02d}")
-print(f"{stundas} h {minutes} min")
+minutes = sekundes // 60
+sekundes = sekundes % 60
+
+print(stundas, "h", minutes, "min", sekundes, "sek")
