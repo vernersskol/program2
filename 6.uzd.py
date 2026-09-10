@@ -1,5 +1,8 @@
-import datetime as dt
-dt.datetime.strptime('31/01/22 23:59:59.999999',
-                     '%d/%m/%y %H:%M:%S.%f')
+sekundes = int(input("Ievadi sekundes: "))
 
-_.strftime('%a %d %b %Y, %I:%M%p')
+stundas = sekundes // 3600
+minutes = (sekundes % 3600) // 60
+sek = sekundes % 60
+
+print(f"{stundas:02d}:{minutes:02d}:{sek:02d}")
+print(f"{stundas} h {minutes} min")
