@@ -1,9 +1,7 @@
-sekundes = int(input("Ievadi sekundes: "))
-
-stundas = sekundes // 3600
-sekundes = sekundes % 3600
-
-minutes = sekundes // 60
-sekundes = sekundes % 60
-
-print(stundas, "h", minutes, "min", sekundes, "sek")
+a= int(input("ievadi skaitli"))
+def checkNumber(a):
+    if(a%2)==0:
+        print(f"{a} ir pāra skaitlis")
+    else:
+        print(f"{a} nav para skaitlis")
+checkNumber(a)

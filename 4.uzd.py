@@ -1,6 +1,9 @@
+a = 0
 
-kilometrs = int(input("Ievadi skaitu, kuru dubultosi:"))
-reizinajums = 2
-judze = kilometrs*reizinajums
-print(judze)
 
+if a > 0:
+    print(f"dotais skaitlis {a} ir lielaks par  nulli")
+elif a < 0:
+        print(f"skaitlis {a} ir mazaks par nulli")
+else:
+    print("skaitlis {a} ir vienads ar nulli")

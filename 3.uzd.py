@@ -1,12 +1,9 @@
-a = 10
-b = 10
-
-if a != b:
-     rezultats = sum([a, b])
+a = 6
+b = 3
+skaitlis = a * b
+if b < skaitlis:
+    print(f"skaitlis {skaitlis} ir mazāks par reizinajumu {b}")
+elif b > skaitlis:
+        print(f"skaitlis {skaitlis} ir lielaks par reizinajumu {b}")
 else:
-    rezultats = (a * 2)
-print(rezultats)
-
-
-
-
+    print("skaitlis {skaitlis} ir vienads ar reizinajumu {b}")
