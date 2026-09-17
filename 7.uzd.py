@@ -1,6 +1,5 @@
-from datetime import timedelta
+saraksts = ["viens", "divi", "tris"]
+saraksts.reverse()
+print(saraksts)
 
-sekundes = int(input("Ievadi sekundes: "))
 
-laiks = timedelta(seconds=sekundes)
-print(laiks)

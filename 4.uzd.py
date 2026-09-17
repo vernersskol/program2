@@ -1,6 +1,5 @@
-
-kilometrs = int(input("Ievadi skaitu, kuru dubultosi:"))
-reizinajums = 2
-judze = kilometrs*reizinajums
-print(judze)
-
+teksts = "is it friday"
+saraksts = teksts.split()
+print(saraksts)
+saraksts.sort()
+print(saraksts)

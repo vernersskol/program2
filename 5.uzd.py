@@ -1,8 +1,7 @@
-skaitlis = int(input("Ievadi skaitli: "))
+saraksts = ["abols", "banans", "oga", "bumbieris", "arbuzs"]
+vards = "banans"
 
-if skaitlis < 18:
-    print("Mazaks")
-elif skaitlis > 18:
-    print("Lielaks")
+if vards in saraksts:
+    print("Teksta virkne atrodas saraksta")
 else:
-    print("Tiesi 18")
+    print("Teksta virkne neatrodas saraksta")
